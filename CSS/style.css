@@ -1,0 +1,217 @@
+
+html{
+  scroll-behavior: smooth;
+}
+/* search section */
+.wordSearchBar{
+  width: 100%;
+  /* /* border: bottom 1px !important; */
+  /* border-color: blue; */
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-width: 1px;
+  /* margin-bottom: 20px; */
+  /* padding: 6px; */
+  background-color: transparent;
+}
+
+.searchBar{
+  width: 100%;
+  /* /* border: bottom 1px !important; */
+  /* border-color: blue; */
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-width: 1px;
+  /* margin-bottom: 20px; */
+  /* padding: 6px; */
+  background-color: transparent;
+}
+.search{
+  margin-top: 50px;
+  padding: 50px;
+}
+/* end search section */
+/* ----------------------------------------- */
+
+
+/* side stripe navbar section */
+
+.sideNavbarPane span {
+  margin-left: 8px;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  z-index: 111;
+}
+.socialIcons .lang{
+  position: absolute;
+  top: 90%;
+  margin-left: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.socialIcons .lang:hover{
+color: #D62E33;
+}
+.socialIcons .share{
+  position: absolute;
+  top: 95%;
+  margin-left: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.socialIcons .share:hover{
+  color: #D62E33;
+  }
+.sideNavbarPane{
+  background-color: #f8f6f6;
+  width: 50px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 11;
+}
+.sideNavbarPane img{
+width: 80%;
+margin: 10px;
+padding: 7px;
+cursor: pointer;
+}
+/* .sideNavbarPane img:hover{
+color: #D62E33;
+} */
+.sideNavbar {
+  background-color: #414658;
+  width: 325px;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  /* display: none; */
+
+}
+
+
+.sideNavbar a {
+  /* padding: 25px; */
+  padding-top: 500px;
+  text-decoration: none;
+  display: block;
+  color: white;
+
+
+}
+.sideNavbarIcon{
+opacity: 0;
+}
+.sideNavbarIcon:hover{
+ color: #D62E33;
+}
+
+.openButton:hover{
+ color: #D62E33;
+}
+.sideNavbarSocialIcons{
+  z-index: 1;
+  position: absolute;
+  top: 85%;
+  margin: 5px;
+  padding: 20px;
+  color: white;
+}
+.facebook:hover{
+color: #D62E33;
+}
+.twitter:hover{
+color: #D62E33;
+}
+.lang:hover{
+color: #D62E33;
+}
+
+
+
+/* end side stripe navbar section */
+/* ----------------------------------------- */
+
+
+/* moviesfromAPI section */
+.moviesFromApi{
+margin: 10px;
+}
+.moviesFromApi img{
+  width: 100%;
+
+}
+
+.baseMovie{
+  position: relative;
+  overflow: hidden;
+/* padding: 0; */
+}
+.baseMovie:hover .caption{
+top: 0;
+}
+.caption{
+  background-color: rgba(255,255,255,.7);
+  position: absolute;
+  width: 92%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  /* right: 0  ; */
+  text-align: center;
+  transition: all 1s;
+margin-left: 12px;
+}
+/* end moviesfromAPI section */
+/* ----------------------------------------- */
+/* Contact us section */
+.header h2{
+  color: white;
+}
+.rightSide input{
+  width: 100%;
+  /* /* border: bottom 1px !important; */
+  /* border-color: blue; */
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-width: 1px;
+  /* margin-bottom: 20px; */
+  /* padding: 6px; */
+  background-color: transparent;  
+
+}
+.leftSide input{
+  width: 100%;
+  /* /* border: bottom 1px !important; */
+  /* border-color: blue; */
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-width: 1px;
+  /* margin-bottom: 20px; */
+  /* padding: 6px; */
+  background-color: transparent;  
+
+}
+.contactUs p{
+  
+    background-color:  #ccc;
+    margin-bottom: 0;
+    padding: 5px;
+    display: none;
+    /* position: absolute; */
+   }
+
+
+
+/* end Contact us section */
+/* ----------------------------------------- */

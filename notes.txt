@@ -1,0 +1,35 @@
+search section
+-------------------
+reomve border & make bottom border----done
+handle 2 search bar
+-----------------------------------------
+
+
+ moviesfromAPI section
+-------------------
+hover layer----------done
+get data from API--------done
+link navbar links with target for each (API & section)------done
+API search from api link -------done
+ local search playing now 
+change var to let-------done
+change password type from text to password--------------done
+-----------------------------------------
+
+
+contact us section
+-------------------
+reomve border & make bottom border----done
+regex-----done
+submit (enable & disable)-----canceled
+-----------------------------------------
+
+
+navbar section
+-------------------
+@media when opn inspect (navbarpane)
+logo img hover color
+links Animation
+handle social icons-----------done
+
+-----------------------------------------

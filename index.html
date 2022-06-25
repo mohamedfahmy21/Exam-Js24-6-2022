@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="CSS/fontawesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="w-75 m-auto bg-body">
+    <!-- search section -->
+    <section class="search d-inline-block w-100 align-items-center m-auto ">
+        <div class="row m-auto w-100 justify-content-center ">
+            <div class=" col-md-6 ">
+                <input id="wordSearchBar" class="wordSearchBar form-control text-center " type="text" placeholder="get movies by word">
+            </div>
+            <div class=" col-md-6 ">
+                <input id="searchBar" class="searchBar form-control text-center" type="text" placeholder="search...">
+
+            </div>
+        </div>
+
+    </section>
+    <!-- end search section  -->
+    <!-- ---------------------------------------------------------- -->
+
+
+    <!-- side strip navbar section -->
+
+    <section class="sideStripNavbar">
+        <div class="sideNavbarPane">
+            <img class="logo" src="images/logo (2).png" alt="logo">
+            <span id="openButton" class="openButton" style="font-size: 30px;">☰</span>
+            <div class="socialIcons">
+                <i class="lang fas fa-globe fa-1x w-100"></i>
+                <i class="share fas fa-share-alt fa-1x w-100"></i>
+            </div>
+        </div>
+        <div class="sideNavbar" style="font-size: 20px;">
+
+            <a id="item1" class="sideNavbarIcon" href="#">Now playing</a>
+            <a id="item2" class="sideNavbarIcon" href="#">Popular</a>
+            <a id="item3" class="sideNavbarIcon" href="#">Top Rated</a>
+            <a id="item4" class="sideNavbarIcon" href="#">Trending</a>
+            <a id="item5" class="sideNavbarIcon" href="#">Upcoming</a>
+            <a id="item6" class="sideNavbarIcon" href="#contactUs">Contact Us</a>
+            <div class="sideNavbarSocialIcons">
+                <i class="facebook fab fa-facebook-f fa-1x m-2"></i>
+                <i class="twitter fab fa-twitter fa-1x m-2"></i>
+                <i class="lang fas fa-globe fa-1x m-2"></i>
+
+                <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- end side strip navbar section  -->
+    <!-- ---------------------------------------------------------- -->
+
+
+    <!-- Movies from API section  -->
+
+    <section class="moviesFromApi">
+        <div id="rowData" class="row gy-md-4">
+            <div class="baseMovie col-md-4">
+                <img src="images/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" alt="movie">
+                <div class="caption">
+                    <h2>title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quidem eligendi voluptatibus,
+                        tenetur ex doloribus modi dolorum minus. Nam, atque.</p>
+                    <p>body</p>
+                    <p>body</p>
+                </div>
+            </div>
+            <div class="baseMovie col-md-4">
+                <img src="images/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" alt="movie">
+                <div class="caption">
+                    <h2>title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quidem eligendi voluptatibus,
+                        tenetur ex doloribus modi dolorum minus. Nam, atque.</p>
+                    <p>body</p>
+                    <p>body</p>
+                </div>
+            </div>
+            <div class="baseMovie col-md-4">
+                <img src="images/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" alt="movie">
+                <div class="caption">
+                    <h2>title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quidem eligendi voluptatibus,
+                        tenetur ex doloribus modi dolorum minus. Nam, atque.</p>
+                    <p>body</p>
+                    <p>body</p>
+                </div>
+            </div>
+            <div class="baseMovie col-md-4">
+                <img src="images/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" alt="movie">
+                <div class="caption">
+                    <h2>title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quidem eligendi voluptatibus,
+                        tenetur ex doloribus modi dolorum minus. Nam, atque.</p>
+                    <p>body</p>
+                    <p>body</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end Movies from API section  -->
+    <!-- ---------------------------------------------------------- -->
+
+    <!-- Contact us section -->
+
+    <section id="contactUs" class="contactUs">
+        <div class="header ">
+            <h2 class="mt-3 mb-3 ms-2 py-3">Contact Us...</h2>
+        </div>
+        <div class="row m-auto w-100 justify-content-center ">
+            <div class="col-md-6 d-block ">
+                <div class="rightSide">
+                    <input id="contactName" class="contactName w-100 mt-2 form-control" type="text"
+                        placeholder="Enter Your Name">
+                    <p id="alertTextName">Enter Valid Name</p>
+                    <input id="contactPhone" class="contactPhone w-100 mt-2 form-control" type="text"
+                        placeholder="Enter Your Phone">
+                    <p id="alertTextPhone">Enter Valid Phone</p>
+
+                    <input id="contactPassword" class="contactPassword w-100 mt-2 form-control" type="password"
+                        placeholder="Enter Your Password">
+                    <p id="alertTextPassword">Enter Valid password includes([a-z]/[A-Z]/[0-9]/[!@#$%^&*]/(?=.{8,}))</p>
+
+                    <button id="submit" class="mt-4 mb-5 btn bg-danger ">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-6 d-block ">
+                <div class="leftSide">
+                    <input id="contactEmail" class="contactEmail w-100 mt-2 form-control" type="text"
+                        placeholder="Enter Your Email">
+                    <p id="alertTextEmail">Enter Valid Email</p>
+                    <input id="contactAge" class="contactAge w-100 mt-2 form-control" type="text"
+                        placeholder="Enter Your Age">
+                    <p id="alertTextAge">Enter Valid Age in range 18~99</p>
+                    <input id="contactRePassword" class="contactRePassword w-100 mt-2 form-control" type="password"
+                        placeholder="ReEnter Your Password">
+                    <p id="alertTextRePassword">Enter Matched Password</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end Contact us section -->
+    <!-- ---------------------------------------------------------- -->
+
+
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
