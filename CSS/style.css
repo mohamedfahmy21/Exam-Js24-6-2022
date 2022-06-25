@@ -99,8 +99,8 @@ color: #D62E33;
 
 
 .sideNavbar a {
-  /* padding: 25px; */
-  padding-top: 500px;
+  padding: 25px;
+  /* padding-top: 500px; */
   text-decoration: none;
   display: block;
   color: white;

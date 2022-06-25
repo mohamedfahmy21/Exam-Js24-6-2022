@@ -22,24 +22,24 @@ $('.openButton').click(function () {
         // console.log(document.getElementById("openButton").innerHTML);
         document.getElementById("openButton").innerHTML = "x";
             $('.sideNavbar').animate({ left: "0" }, 500,function(){
-                $('#item1').animate({opacity: "1", paddingtop: "25px"},1100)
-                $('#item2').animate({opacity: "1", paddingtop: "50px"},1200)
-                $('#item3').animate({opacity: "1", paddingtop: "100px"},1300)
-                $('#item4').animate({opacity: "1", paddingtop: "25px"},1400)
-                $('#item5').animate({opacity: "1", paddingtop: "25px"},1500)
-                $('#item6').animate({opacity: "1", paddingtop: "25px"},1600)
+                $('#item1').animate({opacity: "1"},1100)
+                $('#item2').animate({opacity: "1"},1200)
+                $('#item3').animate({opacity: "1"},1300)
+                $('#item4').animate({opacity: "1"},1400)
+                $('#item5').animate({opacity: "1"},1500)
+                $('#item6').animate({opacity: "1"},1600)
             });
            
             // $('.sideNavbarIcon').css("transition","ease-in")
 
     }
     else {
-        $('#item1').animate({opacity: "0", paddingtop: "500px"},1100)
-        $('#item2').animate({opacity: "0", paddingtop: "500px"},1200)
-        $('#item3').animate({opacity: "0", paddingtop: "500px"},1300)
-        $('#item4').animate({opacity: "0", paddingtop: "500px"},1400)
-        $('#item5').animate({opacity: "0", paddingtop: "500px"},1500)
-        $('#item6').animate({opacity: "0", paddingtop: "500px"},1600,function(){
+        $('#item1').animate({opacity: "0"},1100)
+        $('#item2').animate({opacity: "0"},1200)
+        $('#item3').animate({opacity: "0"},1300)
+        $('#item4').animate({opacity: "0"},1400)
+        $('#item5').animate({opacity: "0"},1500)
+        $('#item6').animate({opacity: "0"},1600,function(){
             $('.sideNavbar').animate({ left: "-100%" }, 1000);
             document.getElementById("openButton").innerHTML = "☰";
             $('.sideNavbarPane').animate({ left: "0" }, 300)
